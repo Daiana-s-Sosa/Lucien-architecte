@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Work sans';
+}
+
+/*PORTADA*/
+.text-center h1{
+padding: 8em;
+font-family: 'Work sans';
+
+}
+h1{
+    font-weight: lighter;
+}
+h1 span{
+    font-weight: 800;
+}
+.text-center h2 span{
+    font-weight: 900;
+
+}
+
+.sidervar-container {
+    min-height: 18vh;
+}
+
+.sidervar-container h4{
+    padding: .875rem 1.75rem;
+    font-weight: lighter;
+}
+.sidervar-container h4 span{
+    font-weight: 600;
+}
+/*MENU*/
+.menu{
+    width: 18rem;
+    
+}
+.menu a{
+    font-weight: lighter;
+
+}
+a:hover{
+    text-decoration: none;
+    font-weight: 600;
+
+}
+/*DIRE*/
+.col-4{
+    bottom: -4em;
+}
+p{
+    margin-bottom: 0%;
+}
+.dire a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*mapa*/
+img{
+    width: 50%;
+    top: -100px;
+
+}
+.p-4 p{
+    margin-left: 20em;
+}
+a svg{
+    margin-right: 1em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    color: #000;
+}
