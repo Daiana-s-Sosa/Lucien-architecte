@@ -17,7 +17,7 @@ h1{
     font-weight: lighter;
 }
 h1 span{
-    font-weight: 800;
+    font-weight: 400;
 }
 .text-center h2 span{
     font-weight: 900;
@@ -33,15 +33,16 @@ h1 span{
     font-weight: lighter;
 }
 .sidervar-container h4 span{
-    font-weight: 600;
+    font-weight: 400;
 }
 /*MENU*/
-.menu{
-    width: 18rem;
-    
+.col-3{
+    bottom: -2em;
 }
+    
 .menu a{
-    font-weight: lighter;
+    font-family: 'Work sans';
+    top: -50px;
 
 }
 a:hover{
@@ -51,7 +52,11 @@ a:hover{
 }
 /*DIRE*/
 .col-4{
-    bottom: -4em;
+    bottom: -2em;
+}
+.col-4 a{
+    text-decoration: none;
+    color: #000;
 }
 p{
     margin-bottom: 0%;
@@ -62,17 +67,21 @@ p{
 }
 
 /*mapa*/
+
 img{
-    width: 50%;
-    top: -100px;
+    width: 55%;
 
 }
+
 .p-4 p{
-    margin-left: 20em;
+    margin-left: 21em;
 }
+
+/*iconos*/
 a svg{
-    margin-right: 1em;
-    margin-top: 2em;
-    margin-bottom: 4em;
+    
+    margin-left: 1em;
+    margin-top: 7em;
+    margin-bottom: 3em;
     color: #000;
 }
