@@ -6,93 +6,177 @@
 body{
     font-family: 'Work sans';
 }
+html{
+    scroll-behavior: smooth;
+}
+/**/
+.portada{
+    padding-top: 18em;
+}
+.portada span{
+    font-weight: 600;
+}
+.portada h2{
+    font-weight: 200;
+}
 
 /*PORTADA*/
-.text-center h1{
-padding: 8em;
-font-family: 'Work sans';
+
+.vertical-nav {
+      min-width:17rem;
+      width:17rem;
+      height:100vh;
+      position:fixed;
+      top:0;
+      left:0;
+      font-family: 'Work sans';
+      font-weight: 200;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+
+
+.vertical-nav p{
+font-size: 19px;
+font-weight: 600;
+}
+
+.vertical-nav span{
+font-weight: 200;
+}
+
+a{
+    color:black;
+    bottom:2em;
+    text-decoration: none;
 
 }
-h1{
-    font-weight: lighter;
-}
-h1 span{
-    font-weight: 600;
-}
-.text-center h2 span{
-    font-weight: 600;
 
-}
-
-.sidervar-container {
-    min-height: 18vh;
-}
-
-.sidervar-container h4{
-    padding: .875rem 1.75rem;
-    font-weight: lighter;
-}
-.sidervar-container h4 span{
+a:hover{
     font-weight: 600;
 }
 
 /*MENU*/
-.col-3{
-    bottom: -2em;
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10em;
+
 }
-    
-.menu a{
+
+/*PRESENTACION*/
+
+#pres{
+    padding-top: 7em;
+}
+
+/*ACTUALITE*/
+#actualite{
+    padding-top: 7em;
+  
+}
+
+
+/*PROFIL*/
+
+.profil{
+    padding: 7em;
+    padding-bottom: 4em;
+    margin: 7em;
+}
+
+/*PROJETS*/
+.Projets{
+
     font-family: 'Work sans';
     font-weight: 200;
-    top: -50px;
+    top:0%;
+    padding-left: 1em;
+
 
 }
-a:hover{
-    text-decoration: none;
+.Projets a:hover{
+    color: black;
     font-weight: 600;
-    color: #000;
-
-}
-
-/*DIRE*/
-.col-4{
-    bottom: -2.5em;
-}
-.col-4 a{
     text-decoration: none;
-    color: #000;
 }
-p{
+.dropdown-item{
+    text-decoration: none;
+}
+.dropdown-item:hover{
+    background-color: white;
+}
+
+/*EN COURS*/
+.cours{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+
+/*RÉALISÉ*/
+
+.realis{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+
+
+
+/*CONTACT*/
+
+.contact a{
+    text-decoration: none;
     font-weight: 200;
-    margin-left: 0.5em;
     margin-bottom: 0%;
-}
-.dire a{
-    text-decoration: none;
-    color: #000;
-}
-a svg{
-    color: #000;
+   
 }
 
-
-/*mapa*/
-
-img{
-    width: 55%;
+#contact{
+    padding-top: 6.5em;
+}
+.info p{
+    margin-bottom: 0%;
 
 }
 
-.p-4 p{
-    margin-left: 21em;
+.info a:hover{
+    color: black;
+    font-weight: 600;
+
 }
-p:hover{
-    color: #000;
+.ruta p{
+    margin-bottom: 0%;
+  
+}
+.ruta .margenb{
+    margin-bottom: 2em;
+}
+.ruta a:hover{
+    color:black;
+    font-weight: 600;
+}
+#center{
+    padding-top: 1.5em;
+}
+/*ICONOS*/
+.iconos{
+    padding-bottom: 1em;
+    margin-top: 5em;
+    margin-right: 5em;
+
+}
+.iconos a:hover{
+    color: black;
 }
 
-/*iconos*/
-.icon svg{
-    margin-left: 1.5em;
-    margin-bottom: 1em;
-    color: #000;
+/*BOTON UP*/
+.boton-up{
+    bottom: 2em;
+    cursor: pointer;
+
 }
