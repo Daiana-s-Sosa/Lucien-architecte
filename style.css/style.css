@@ -1,182 +1,193 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
-body{
-    font-family: 'Work sans';
+body {
+  font-family: 'Work sans';
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 /**/
-.portada{
-    padding-top: 18em;
+.portada {
+  padding-top: 18em;
 }
-.portada span{
-    font-weight: 600;
+.portada span {
+  font-weight: 600;
 }
-.portada h2{
-    font-weight: 200;
+.portada h2 {
+  font-weight: 200;
 }
 
 /*PORTADA*/
 
 .vertical-nav {
-      min-width:17rem;
-      width:17rem;
-      height:100vh;
-      position:fixed;
-      top:0;
-      left:0;
-      font-family: 'Work sans';
-      font-weight: 200;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
-    }
-
-
-.vertical-nav p{
-font-size: 19px;
-font-weight: 600;
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Work sans';
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.vertical-nav span{
-font-weight: 200;
+.vertical-nav p {
+  font-size: 19px;
+  font-weight: 600;
 }
 
-a{
-    color:black;
-    bottom:2em;
-    text-decoration: none;
-
+.vertical-nav span {
+  font-weight: 200;
 }
 
-a:hover{
-    font-weight: 600;
+a {
+  color: black;
+  bottom: 2em;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
 }
 
 /*MENU*/
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 10em;
-
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10em;
 }
 
 /*PRESENTACION*/
 
-#pres{
-    padding-top: 7em;
+#pres {
+  padding-top: 7em;
 }
 
 /*ACTUALITE*/
-#actualite{
-    padding-top: 7em;
-  
+#actualite {
+  padding-top: 7em;
 }
-
 
 /*PROFIL*/
 
-.profil{
-    padding: 7em;
-    padding-bottom: 4em;
-    margin: 7em;
+.profil {
+  padding: 7em;
+  padding-bottom: 4em;
+  margin: 7em;
 }
-
+.profil p {
+  font-weight: 300;
+}
+.profil ul {
+  list-style: none;
+  font-weight: 300;
+}
+.date {
+  width: 60%;
+}
+table tbody tr th,
+table tbody tr td {
+    font-weight: 300;
+}
 /*PROJETS*/
-.Projets{
-
-    font-family: 'Work sans';
-    font-weight: 200;
-    top:0%;
-    padding-left: 1em;
-
-
+.Projets {
+  font-family: 'Work sans';
+  font-weight: 200;
+  top: 0%;
+  padding-left: 1em;
 }
-.Projets a:hover{
-    color: black;
-    font-weight: 600;
-    text-decoration: none;
+.Projets a:hover {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
 }
-.dropdown-item{
-    text-decoration: none;
+.dropdown-item {
+  text-decoration: none;
 }
-.dropdown-item:hover{
-    background-color: white;
+.dropdown-item:hover {
+  background-color: white;
 }
 
 /*EN COURS*/
-.cours{
-    padding-top: 5em;
-    padding-bottom: 5em;
+.cours {
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
-
+.cours a {
+    width: 25%;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    /* font-weight: 300; */
+}
+.cours a:visited {
+    color: #272727;
+}
 
 /*RÉALISÉ*/
 
-.realis{
-    padding-top: 5em;
-    padding-bottom: 5em;
+.realis {
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
-
-
-
-
+.realis a {
+    width: 25%;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    /* font-weight: 300; */
+}
+.realis a:visited {
+    color: #272727;
+}
 /*CONTACT*/
 
-.contact a{
-    text-decoration: none;
-    font-weight: 200;
-    margin-bottom: 0%;
-   
+.contact a {
+  text-decoration: none;
+  font-weight: 200;
+  margin-bottom: 0%;
 }
 
-#contact{
-    padding-top: 6.5em;
+#contact {
+  padding-top: 6.5em;
 }
-.info p{
-    margin-bottom: 0%;
+.info p {
+  margin-bottom: 0%;
+}
 
+.info a:hover {
+  color: black;
+  font-weight: 600;
 }
-
-.info a:hover{
-    color: black;
-    font-weight: 600;
-
+.ruta p {
+  margin-bottom: 0%;
 }
-.ruta p{
-    margin-bottom: 0%;
-  
+.ruta .margenb {
+  margin-bottom: 2em;
 }
-.ruta .margenb{
-    margin-bottom: 2em;
+.ruta a:hover {
+  color: black;
+  font-weight: 600;
 }
-.ruta a:hover{
-    color:black;
-    font-weight: 600;
-}
-#center{
-    padding-top: 1.5em;
+#center {
+  padding-top: 1.5em;
 }
 /*ICONOS*/
-.iconos{
-    padding-bottom: 1em;
-    margin-top: 5em;
-    margin-right: 5em;
-
+.iconos {
+  padding-bottom: 1em;
+  margin-top: 5em;
+  margin-right: 5em;
 }
-.iconos a:hover{
-    color: black;
+.iconos a:hover {
+  color: black;
 }
 
 /*BOTON UP*/
-.boton-up{
-    bottom: 2em;
-    cursor: pointer;
-
+.boton-up {
+  bottom: 2em;
+  cursor: pointer;
 }
