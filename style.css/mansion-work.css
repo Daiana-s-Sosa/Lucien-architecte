@@ -65,3 +65,6 @@ a:hover {
 .images-list ul {
   list-style: none;
 }
+.paragraph {
+  font-weight: 300;
+}
