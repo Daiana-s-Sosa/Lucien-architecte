@@ -68,3 +68,7 @@ a:hover {
 .paragraph {
   font-weight: 300;
 }
+
+p{
+  font-weight: lighter;
+}

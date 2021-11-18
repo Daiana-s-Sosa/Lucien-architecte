@@ -54,7 +54,14 @@ a {
 a:hover {
   font-weight: 600;
 }
-
+.pie{
+  display: block;
+  margin-bottom: 2em;
+  margin-left:  1em;
+}
+.pie a:hover{
+  color: #000;
+}
 /*MENU*/
 .flex {
   display: flex;
@@ -190,4 +197,9 @@ table tbody tr td {
 .boton-up {
   bottom: 2em;
   cursor: pointer;
+}
+
+.iconos{
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
