@@ -6,6 +6,9 @@
 body {
   font-family: 'Work sans';
 }
+.media-body {
+  cursor: pointer;
+}
 html {
   scroll-behavior: smooth;
 }
