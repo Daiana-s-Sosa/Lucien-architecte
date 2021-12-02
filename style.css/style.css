@@ -38,7 +38,10 @@ html {
   flex-direction: column;
   justify-content: space-between;
 }
-
+.vertical-nav{
+  margin-left: 4em;
+  margin-top: 2em;
+}
 .vertical-nav p {
   font-size: 19px;
   font-weight: 600;
@@ -72,44 +75,49 @@ a:hover {
   justify-content: space-between;
   height: 10em;
 }
-
-/*PRESENTACION*/
-
-#pres {
-  padding-top: 7em;
+.dropdown-toggle::after {
+  display:none;
 }
 
+#projects{
+  border-radius: none !important;
+
+}
 /*ACTUALITE*/
 #actualite {
-  padding-top: 7em;
+  padding-top: 8.5em;
+  
 }
+p{
+  font-weight: lighter;
 
+}
 /*PROFIL*/
 
 .profil {
-  padding: 7em;
-  padding-bottom: 4em;
+  padding: 2em;
+ 
   margin: 7em;
 }
 .profil p {
-  font-weight: 300;
+  color:#262626;
+  font-size: 14px;
+
 }
 .profil ul {
   list-style: none;
   font-weight: 300;
 }
-.date {
-  width: 60%;
-}
 table tbody tr th,
 table tbody tr td {
-    font-weight: 300;
+  margin: 0%;
+  padding: 0%;
+  font-weight: lighter;
 }
 /*PROJETS*/
 .Projets {
   font-family: 'Work sans';
   font-weight: 200;
-  top: 0%;
   padding-left: 1em;
 }
 .Projets a:hover {
@@ -119,11 +127,15 @@ table tbody tr td {
 }
 .dropdown-item {
   text-decoration: none;
+  background: none;
 }
 .dropdown-item:hover {
   background-color: white;
+  border: none;
 }
-
+#carouselExampleFade{
+  padding-top: 9em;
+}
 /*EN COURS*/
 .cours {
   padding-top: 5em;
@@ -135,15 +147,15 @@ table tbody tr td {
     text-decoration: none;
     /* font-weight: 300; */
 }
-.cours a:visited {
-    color: #272727;
+.cours a:hover{
+    color: black;
 }
-
+#curso img{
+  padding-top: 4em;
+}
 /*RÉALISÉ*/
-
-.realis {
-  padding-top: 5em;
-  padding-bottom: 5em;
+.realis{
+  padding-top: 9em;
 }
 .realis a {
     width: 25%;
@@ -154,19 +166,23 @@ table tbody tr td {
 .realis a:visited {
     color: #272727;
 }
+
 /*CONTACT*/
 
 .contact a {
   text-decoration: none;
   font-weight: 200;
-  margin-bottom: 0%;
+  margin-bottom: 2em;
 }
 
 #contact {
   padding-top: 6.5em;
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
 .info p {
   margin-bottom: 0%;
+  font-size: 14px;
 }
 
 .info a:hover {
@@ -175,6 +191,7 @@ table tbody tr td {
 }
 .ruta p {
   margin-bottom: 0%;
+  font-size: 14px;
 }
 .ruta .margenb {
   margin-bottom: 2em;
@@ -186,6 +203,9 @@ table tbody tr td {
 #center {
   padding-top: 1.5em;
 }
+.car{
+  padding-left: 15.5em;
+}
 /*ICONOS*/
 .iconos {
   padding-bottom: 1em;
@@ -196,13 +216,19 @@ table tbody tr td {
   color: black;
 }
 
-/*BOTON UP*/
-.boton-up {
-  bottom: 2em;
-  cursor: pointer;
-}
-
 .iconos{
   margin-top: 2em;
   margin-bottom: 1em;
+}
+
+/*PIE*/
+.pie{
+padding-bottom: 2em;
+}
+
+/*red*/
+
+.red{
+  padding: 0%;
+  margin: 0%;
 }
