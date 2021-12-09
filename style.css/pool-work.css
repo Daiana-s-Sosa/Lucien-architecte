@@ -1,0 +1,136 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: 'Work sans';
+}
+html {
+  scroll-behavior: smooth;
+}
+/**/
+.portada {
+  padding-top: 18em;
+}
+.portada span {
+  font-weight: 600;
+}
+.portada h2 {
+  font-weight: 200;
+}
+
+/*PORTADA*/
+
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Work sans';
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*NAV*/
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Work sans';
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vertical-nav{
+  margin-left: 4em;
+  margin-top: 2em;
+}
+.vertical-nav p {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.vertical-nav span {
+  font-weight: 200;
+}
+
+a {
+  color: black;
+  bottom: 2em;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 500;
+}
+.pie{
+  display: block;
+  margin-bottom: 2em;
+  margin-left:  1em;
+}
+.pie a:hover{
+  color: #000;
+}
+#realise{
+  padding-left: 0.5em;
+}
+#encurso{
+  padding-left: 0.5em;
+  font-size: 13px;
+
+}
+.nav-link{
+  padding:0%;
+  margin-left: 1em;
+  font-size: 13px;
+
+}
+/*PROJETS*/
+.Projets {
+  font-family: 'Work sans';
+  font-weight: 200;
+  padding-left: 1em;
+}
+.Projets a:hover {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#carouselExampleFade{
+  padding-top: 9em;
+}
+/*MENU*/
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10em;
+}
+.images-list ul {
+  list-style: none;
+  padding-left: 6em;
+
+}
+.paragraph {
+  font-weight: 300;
+}
+.texto{
+  font-size: 13px;
+  font-weight: 300;
+  width: 70%;
+}
+h6{
+  display: block;
+  width: 55%;
+  padding-top: 4.5em;
+  padding-left: 6em;
+}
